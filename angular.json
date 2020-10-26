@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "food"
+    }
+  },
+  "defaultProject": "food",
+  "cli": {
+    "analytics": "a1cc8932-65a3-459a-96a0-946e3fc59aaa"
+  }
 }
