@@ -2,3 +2,201 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+
+
+.firstpage
+{
+    background: url(./assets/images/pizza-component.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    float: left;
+    padding-bottom: 10%
+}
+
+.box
+{
+    height:80%;
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.oo
+  {
+    padding: 20px;
+    width: auto;
+    height: 540px;
+    overflow: auto;
+    background-color: rgba(226, 207, 207, 0.267);
+    border-radius: 50px;
+    
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+
+.side
+{
+  float: left;
+  display: inline;
+  margin: 50px;
+}
+
+.left
+{
+  width:35%
+}
+.right
+{
+  width: 40%;
+  padding-left: 20px;
+  text-align: justify; /* For Edge */
+  -moz-text-align-last: right; /* For Firefox prior 58.0 */
+  text-align-last: right;
+  font-family:verdana;
+  font-weight: 550;
+}
+
+.border
+{
+  border-radius: 20px;
+  
+}
+.oo{
+  padding: 20px;
+}
+
+.text
+{
+  text-align: justify; /* For Edge */
+  -moz-text-align-last: right; /* For Firefox prior 58.0 */
+  text-align-last: right;
+  font-size: 50px;
+}
+
+.leftext
+{
+  text-align: start;
+  font-family:verdana;
+  font-weight: 550;
+}
+
+ .circle {
+  height: 100px;
+  width: 100px;
+  background: #bbb;
+  border-radius: 50%;
+  float: right;
+  margin: 10px;
+  font-weight: 550;
+  font-size: 80%;
+  text-align: right;
+}
+
+
+.circle-height
+{
+  line-height: 20px;
+  padding-right: 50%;
+  padding-top: 30%;
+ 
+}
+
+.btn {
+  border: none;
+  background-color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: black;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.btn:hover {
+   background: rgb(53, 37, 37);
+  color: white;
+}
+
+/* ------------------------------ RATING ----------------------------------- */
+*{
+  margin: 0;
+  padding: 0;
+}
+.rate {
+  float: right;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+/* --------------------------------- END RATING ----------------------------*/
+
+
+
+
+/*-------------------------- MENU -------------------------------------*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* --------------------------------MENU END ----------------------*/
